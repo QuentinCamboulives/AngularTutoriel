@@ -1,0 +1,6 @@
+<div class="w-75 mx-auto" style="margin-top: 10px;">
+    <button type="button" class="btn btn-outline-primary" routerLink="/superstar" style="width: 150px;">Retour</button>
+</div>
+<app-superstar-list-item [profile]="profile" 
+                (remove)="remove($event)">
+</app-superstar-list-item>

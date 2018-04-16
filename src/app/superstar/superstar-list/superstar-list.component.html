@@ -1,0 +1,7 @@
+<div style="text-align:center">
+  <button type="button" class="btn btn-outline-primary" routerLink="/superstar/create" style="width: 150px;">Ajouter un profil</button>
+</div>
+<app-superstar-list-item  *ngFor="let p of profiles"
+                          [profile]="p"
+                          (remove)="remove($event)">
+</app-superstar-list-item>
