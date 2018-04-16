@@ -3,10 +3,16 @@
 
 ## How to run the project 
 
+First install node modules
+```
+npm install
+```
+
 Run this command to start the fake DB.
-```bash
+```
 npx json-server --watch db.json
 ```
+
 Then, run
 ```
 ng serve
